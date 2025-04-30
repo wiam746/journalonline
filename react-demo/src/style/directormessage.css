@@ -1,0 +1,25 @@
+.director-message {
+    width: 90%;
+    max-width: 800px;
+    background-color: rgb(245, 240, 240);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .director-message h2 {
+    color: #070707;
+    margin-bottom: 30px;
+  }
+  
+  .director-message p {
+    color: #000000;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center; /* Pour justifier le texte */
+  }
+  
+  .director-info {
+    font-weight: bold;
+  }

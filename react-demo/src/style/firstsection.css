@@ -1,0 +1,37 @@
+.hero {
+    position: relative;
+    background: url('image\WhatsApp Image 2025-03-10 à 14.41.19_b5e38605.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 250px;
+  
+    
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .more-details {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: rotate(90deg);
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    display: block;
+    font-size: 56px;
+    color: blue;
+    height: 30px;
+  }
+  

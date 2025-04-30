@@ -1,0 +1,110 @@
+/* Styles généraux pour la page "À propos" */
+.a-propos-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police moderne et lisible */
+  line-height: 1.7; /* Amélioration de l'espacement des lignes */
+  margin: 30px auto; /* Augmentation de la marge pour un meilleur espacement */
+  padding: 30px; /* Augmentation du padding intérieur */
+  background-color: #f9f9f9; /* Couleur de fond légèrement plus claire */
+  border-radius: 12px; /* Bords plus arrondis pour un aspect plus doux */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Ombre plus subtile mais plus présente */
+  max-width: 1024px; /* Augmentation de la largeur maximale pour les écrans plus grands */
+}
+
+.a-propos-title {
+  color: #2c3e50; /* Couleur de titre plus sombre et professionnelle */
+  font-size: 3em; /* Titre plus grand et plus impactant */
+  margin-bottom: 25px;
+  border-bottom: 3px solid #3498db; /* Ligne de séparation plus épaisse et colorée */
+  padding-bottom: 15px;
+  text-align: center; /* Centrez le titre */
+}
+
+.a-propos-intro {
+  font-size: 1.15em; /* Légère augmentation de la taille de l'intro */
+  color: #555;
+  margin-bottom: 25px;
+  text-align: justify; /* Justifiez le texte pour une meilleure apparence */
+}
+
+/* Styles pour les liens */
+a {
+  color: #3498db; /* Couleur des liens plus vive */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Animation de couleur au survol */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #2980b9; /* Couleur des liens au survol */
+}
+
+/* Styles pour les sections */
+section {
+  margin-top: 40px; /* Augmentation de l'espace entre les sections */
+  padding: 25px;
+  border: 1px solid #e0e0e0; /* Bordure plus claire */
+  border-radius: 8px;
+  background-color: #fff; /* Fond blanc pour les sections */
+}
+
+section h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 2.2em;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Styles pour la section "Notre Équipe" */
+.notre-equipe {
+  display: grid; /* Utilisation de Grid Layout pour une meilleure disposition */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colonnes responsives */
+  gap: 20px; /* Espacement entre les membres de l'équipe */
+}
+
+.membre-equipe {
+  margin-bottom: 0; /* Suppression de la marge inférieure individuelle car gérée par gap */
+  padding: 15px;
+  border: 1px solid #d0d0d0; /* Bordure légèrement plus sombre */
+  border-radius: 6px;
+  background-color: #f4f4f4; /* Fond légèrement grisé pour les membres */
+  text-align: center; /* Centrez le contenu des membres */
+}
+
+.membre-equipe h3 {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 1.4em;
+}
+
+.membre-equipe .role {
+  color: #777;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+/* Ajout d'une légère animation au survol des sections */
+section {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles responsifs pour les écrans plus petits */
+@media (max-width: 768px) {
+  .a-propos-container {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .a-propos-title {
+    font-size: 2.5em;
+  }
+
+  .notre-equipe {
+    grid-template-columns: 1fr; /* Une seule colonne sur les petits écrans */
+  }
+}
