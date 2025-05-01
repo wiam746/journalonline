@@ -1,0 +1,13 @@
+# Configuration de base
+PORT=5000
+NODE_ENV=development
+
+# Configuration MongoDB
+MONGO_URI=mongodb://localhost:27017/mern-auth
+
+# Configuration JWT
+JWT_SECRET=votre_cle_secrete_super_complexe_ici
+JWT_EXPIRE=7d
+
+# Configuration CORS (optionnel)
+FRONTEND_URL=http://localhost:3000
