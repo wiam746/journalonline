@@ -1,0 +1,54 @@
+.announcements-container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 8px;
+    
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .announcements-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .announcement-item {
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgba(41, 40, 40, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .announcement-item img {
+    width: 300px;
+    height: auto;
+    display: block;
+  }
+  
+  .announcement-content {
+    padding: 20px;
+  }
+  
+  .announcement-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .announcement-content p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .details-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 15px;
+  }
